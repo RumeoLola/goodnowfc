@@ -150,34 +150,6 @@ body    {
 
 
 
-/*carousel*/
-
-.main-content   .container-lg   {
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    padding: auto;
-    text-align: center;
-}
-
-.main-content   .container-lg   .carousel   {
-    width: auto;
-    height: auto;
-    padding: auto;
-    margin: 0 auto;
-}
-
-.main-content   .container-lg   .carousel   .carousel-inner {
-    width: 100%;
-    height: auto;
-    padding: 0;
-    margin: 0 auto;
-}
-
-.main-content   .container-lg   .carousel   .carousel-inner .carousel-item  {
-    width: 100%;
-    height: auto;
-}
 
 
 
@@ -265,60 +237,6 @@ body    {
     padding: 16px 32px;
     font-family: monospace;
 }
-
-
-/*affiliates*/
-
-.main-content   .flakes {
-    width: 100%;
-    height: auto;
-    padding: 0;
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-}
-
-.main-content   .flakes .our-flakes {
-    width: 100%;
-    height: auto;
-    padding: 0;
-    height: auto;
-    text-align: center;
-}
-
-.main-content   .flakes .our-flakes h1  {
-    color: #000;
-    font-size: 24px;
-    font-weight: 100;
-    font-family: monospace;
-}
-
-.main-content   .flakes .league-flakes  {
-    width: 100%;
-    height: auto;
-    display: inline-block;
-}
-
-.main-content   .flakes .league-flakes  a   {
-    display: inline-block;
-    width: auto;
-    height: auto;
-    text-decoration: none;
-    padding: 14px 48px;
-}
-
-.main-content   .flakes .league-flakes  a:hover {
-    cursor: pointer;
-}
-
-.main-content   .flakes .league-flakes  a   img {
-    resize: both;
-    width: 100px;
-    height: auto;
-}
-
-
-
 
 
 
@@ -548,24 +466,6 @@ body    {
     }
 
 
-    /* flakes */
-    .main-content   .flakes .league-flakes  {
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    .main-content   .flakes .league-flakes  a   {
-        display: inline-block;
-        width: auto;
-        height: auto;
-        padding: 0;
-        text-decoration: none;
-        display: inline-block;
-        justify-content: space-between;
-    }
-
 
 
 }
@@ -651,24 +551,6 @@ body    {
         width: 275px;
         height: auto;
         padding: 12px 14px;
-    }
-
-    /* flakes */
-    .main-content   .flakes .league-flakes  {
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    .main-content   .flakes .league-flakes  a   {
-        display: inline-block;
-        width: auto;
-        height: auto;
-        padding: 0;
-        text-decoration: none;
-        display: inline-block;
-        justify-content: space-between;
     }
 
 
@@ -757,25 +639,6 @@ body    {
         padding: 12px 14px;
     }
 
-    /* flakes */
-    .main-content   .flakes .league-flakes  {
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    .main-content   .flakes .league-flakes  a   {
-        display: inline-block;
-        width: auto;
-        height: auto;
-        padding: 0;
-        text-decoration: none;
-        display: inline-block;
-        justify-content: space-between;
-    }
-
-
 
 
 }
@@ -861,24 +724,6 @@ body    {
         width: 450px;
         height: auto;
         padding: 12px 14px;
-    }
-
-    /* flakes */
-    .main-content   .flakes .league-flakes  {
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    .main-content   .flakes .league-flakes  a   {
-        display: inline-block;
-        width: auto;
-        height: auto;
-        padding: 0;
-        text-decoration: none;
-        display: inline-block;
-        justify-content: space-between;
     }
 
 }
