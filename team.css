@@ -12,17 +12,6 @@ body    {
     display: block;
 }
 
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
 
 /*body*/
 .body   {
@@ -38,9 +27,7 @@ body    {
     overflow-y: auto;
     overflow-x: hidden;
     display: block;
-    background: linear-gradient(-45deg, #fff, rgb(167, 167, 231), #ddd, #0dd);
-    background-size: 400% 400%;
-    animation: gradient 3s ease infinite;
+    background-color: #fff;
 }
 
 
@@ -194,8 +181,8 @@ body    {
 }
 
 .main-content   .ref-links  .sub-refs   .person   .middle     .text   {
-    background-color: #ddd;
-    color: #000;
+    background-color: #00f;
+    color: #fff;
     font-size: 16px;
     padding: 16px 32px;
     font-family: monospace;
@@ -213,6 +200,7 @@ body    {
     height: auto;
     text-align: center;
     padding: 0;
+    background-color: #00f;
 }
 
 
@@ -237,9 +225,9 @@ body    {
 }
 
 .section    .linksto    a   i   {
-    font-size: 14px;
+    font-size: 16px;
     padding: 12px 14px;
-    color: #000;
+    color: #fff;
 }
 
 .section    .ritenote   {
@@ -249,14 +237,14 @@ body    {
 }
 
 .section    .ritenote   p   {
-    font-size: 12px;
+    font-size: 16px;
     font-family: monospace;
-    color: #000;
+    color: #fff;
 }
 
 .section    .ritenote   p   a   {
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 

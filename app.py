@@ -24,9 +24,9 @@ def index():
     name = request.form['name']
     email = request.form['email']
     subject = request.form['subject']
-    meesageme = request.form['meesageme']
+    meesage = request.form['message']
     msg = Message('Get-Quote Form', sender = 'warutaom.z@gmail.com', recipients = ['wasiuomololaz@gmail.com'])
-    msg.body = 'Name is: {} \n Email is: {} \n and Subject is: {} \n and the message is {}'.format(name, email, subject, meesageme)
+    msg.body = 'Name is: {} \n Email is: {} \n and Subject is: {} \n and the message is {}'.format(name, email, subject, meesage)
     mail.send(msg)
     return "Sent"
 
