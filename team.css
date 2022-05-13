@@ -108,7 +108,7 @@ body    {
     width: 100%;
     height: auto;
     padding: 0;
-    margin: 0 auto 25px auto;
+    margin: 0 auto;
 }
 
 .main-content   .intro  {
@@ -116,13 +116,13 @@ body    {
     height: auto;
     display: block;
     padding: 0;
-    margin: 50px 0 0 0;
     justify-content: flex-end;
+    background-color: #00f;
 }
 
 .main-content   .intro  h1  {
     font-family: monospace;
-    color: #000;
+    color: #fff;
     font-weight: 900;
     font-size: 36px;
     padding: 14px 16px 14px 10vw;
@@ -131,7 +131,7 @@ body    {
 .main-content   .intro  p   {
     font-size: 18px;
     font-family: monospace;
-    color: #000;
+    color: #fff;
     padding: 14px 16px 14px 10vw;
 }
 
@@ -240,6 +240,7 @@ body    {
     font-size: 16px;
     font-family: monospace;
     color: #fff;
+    padding: 12px 14px;
 }
 
 .section    .ritenote   p   a   {
@@ -674,7 +675,6 @@ body    {
         height: auto;
         display: block;
         padding: 0;
-        margin: 64px 0 0 0;
         justify-content: flex-end;
     }
     
@@ -772,7 +772,6 @@ body    {
         height: auto;
         display: block;
         padding: 0;
-        margin: 24px 0 0 0;
         justify-content: flex-end;
     }
     
@@ -873,7 +872,6 @@ body    {
         height: auto;
         display: block;
         padding: 0;
-        margin: 124px 0 0 0;
         justify-content: flex-end;
     }
     

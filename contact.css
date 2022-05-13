@@ -1,5 +1,5 @@
 body    {
-    overflow-y: auto;
+    overflow-y: scroll;
     overflow-x: hidden;
     max-width: 100%;
     max-height: 100%;
@@ -23,7 +23,7 @@ body    {
     height: 100%;
     margin: 0 auto;
     padding: 0 0 0 0;
-    overflow-y: auto;
+    overflow-y: scroll;
     overflow-x: hidden;
     display: block;
     background-color: #fff;
@@ -107,7 +107,7 @@ body    {
     width: 100%;
     height: auto;
     padding: 0;
-    margin: 0 auto 25px auto;
+    margin: 0 auto;
 }
 
 .main-content   .intro  {
@@ -115,13 +115,14 @@ body    {
     height: auto;
     display: block;
     padding: 0;
-    margin: 50px 0 0 0;
+    margin: 0 0 0 0;
     justify-content: flex-end;
+    background-color: #00f;
 }
 
 .main-content   .intro  h1  {
     font-family: monospace;
-    color: #000;
+    color: #fff;
     font-weight: 900;
     font-size: 36px;
     padding: 14px 16px 14px 10vw;
@@ -130,12 +131,40 @@ body    {
 .main-content   .intro  p   {
     font-size: 18px;
     font-family: monospace;
-    color: #000;
+    color: #fff;
     padding: 14px 16px 14px 10vw;
 }
 
 
 
+/*carousel*/
+
+.main-content   .container-lg   {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: auto;
+    text-align: center;
+}
+
+.main-content   .container-lg   .carousel   {
+    width: auto;
+    height: auto;
+    padding: auto;
+    margin: 0 auto;
+}
+
+.main-content   .container-lg   .carousel   .carousel-inner {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.main-content   .container-lg   .carousel   .carousel-inner .carousel-item  {
+    width: 100%;
+    height: auto;
+}
 
 
 
@@ -223,6 +252,58 @@ body    {
     padding: 16px 32px;
     font-family: monospace;
 }
+
+
+/*affiliates*/
+
+.main-content   .flakes {
+    width: 100%;
+    height: auto;
+    padding: 0 0 24px 0;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.main-content   .flakes .our-flakes {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    height: auto;
+    text-align: center;
+}
+
+.main-content   .flakes .our-flakes h1  {
+    color: #000;
+    font-size: 24px;
+    font-weight: 100;
+    font-family: monospace;
+}
+
+.main-content   .flakes .league-flakes  {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.main-content   .flakes .league-flakes  a   {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    padding: 14px 48px;
+}
+
+.main-content   .flakes .league-flakes  a:hover {
+    cursor: pointer;
+}
+
+.main-content   .flakes .league-flakes  a   img {
+    resize: both;
+    width: 100px;
+    height: auto;
+}
+
 
 
 
@@ -368,6 +449,7 @@ body    {
     font-size: 16px;
     font-family: monospace;
     color: #fff;
+    padding: 12px 14px;
 }
 
 .section    .ritenote   p   a   {
@@ -452,6 +534,24 @@ body    {
         display: block;
     }
 
+
+    /* flakes */
+    .main-content   .flakes .league-flakes  {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .main-content   .flakes .league-flakes  a   {
+        display: inline-block;
+        width: auto;
+        height: auto;
+        padding: 0;
+        text-decoration: none;
+        display: inline-block;
+        justify-content: space-between;
+    }
 
 
 
@@ -540,6 +640,24 @@ body    {
         padding: 12px 14px;
     }
 
+    /* flakes */
+    .main-content   .flakes .league-flakes  {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .main-content   .flakes .league-flakes  a   {
+        display: inline-block;
+        width: auto;
+        height: auto;
+        padding: 0;
+        text-decoration: none;
+        display: inline-block;
+        justify-content: space-between;
+    }
+
 
 }
 
@@ -625,6 +743,25 @@ body    {
         height: auto;
         padding: 12px 14px;
     }
+
+    /* flakes */
+    .main-content   .flakes .league-flakes  {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .main-content   .flakes .league-flakes  a   {
+        display: inline-block;
+        width: auto;
+        height: auto;
+        padding: 0;
+        text-decoration: none;
+        display: inline-block;
+        justify-content: space-between;
+    }
+
 
 
 
@@ -713,6 +850,24 @@ body    {
         padding: 12px 14px;
     }
 
+    /* flakes */
+    .main-content   .flakes .league-flakes  {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .main-content   .flakes .league-flakes  a   {
+        display: inline-block;
+        width: auto;
+        height: auto;
+        padding: 0;
+        text-decoration: none;
+        display: inline-block;
+        justify-content: space-between;
+    }
+
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px)   {
@@ -781,7 +936,6 @@ body    {
         height: auto;
         display: block;
         padding: 0;
-        margin: 64px 0 0 0;
         justify-content: flex-end;
     }
     
@@ -970,7 +1124,6 @@ body    {
         height: auto;
         display: block;
         padding: 0;
-        margin: 24px 0 0 0;
         justify-content: flex-end;
     }
     
@@ -1159,7 +1312,6 @@ body    {
         height: auto;
         display: block;
         padding: 0;
-        margin: 124px 0 0 0;
         justify-content: flex-end;
     }
     
