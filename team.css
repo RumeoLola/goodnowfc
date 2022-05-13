@@ -120,18 +120,18 @@ body    {
     background-color: #00f;
 }
 
+.main-content   .intro  p   {
+    font-size: 14px;
+    font-family: monospace;
+    color: #fff;
+    padding: 14px 16px 14px 10vw;
+}
+
 .main-content   .intro  h1  {
     font-family: monospace;
     color: #fff;
     font-weight: 900;
     font-size: 36px;
-    padding: 14px 16px 14px 10vw;
-}
-
-.main-content   .intro  p   {
-    font-size: 18px;
-    font-family: monospace;
-    color: #fff;
     padding: 14px 16px 14px 10vw;
 }
 
@@ -183,7 +183,7 @@ body    {
 .main-content   .ref-links  .sub-refs   .person   .middle     .text   {
     background-color: #00f;
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     padding: 16px 32px;
     font-family: monospace;
 }
@@ -225,7 +225,7 @@ body    {
 }
 
 .section    .linksto    a   i   {
-    font-size: 16px;
+    font-size: 14px;
     padding: 12px 14px;
     color: #fff;
 }
@@ -237,7 +237,7 @@ body    {
 }
 
 .section    .ritenote   p   {
-    font-size: 16px;
+    font-size: 14px;
     font-family: monospace;
     color: #fff;
     padding: 12px 14px;

@@ -129,7 +129,7 @@ body    {
 }
 
 .main-content   .intro  p   {
-    font-size: 18px;
+    font-size: 14px;
     font-family: monospace;
     color: #fff;
     padding: 14px 16px 14px 10vw;
@@ -185,17 +185,17 @@ body    {
     margin: 0 auto;
 }
 
-.main-content   .ref-links  .readers    h2  {
-    font-size: 16px;
+.main-content   .ref-links  .readers    p   {
+    font-size: 14px;
     font-family: monospace;
-    font-weight: 900;
     color: #000;
     padding: 14px 16px;
 }
 
-.main-content   .ref-links  .readers    p   {
+.main-content   .ref-links  .readers    h2  {
     font-size: 16px;
     font-family: monospace;
+    font-weight: 900;
     color: #000;
     padding: 14px 16px;
 }
@@ -248,7 +248,7 @@ body    {
 .main-content   .ref-links  .sub-refs   a   .middle     .text   {
     background-color: #00f;
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     padding: 16px 32px;
     font-family: monospace;
 }
@@ -434,7 +434,7 @@ body    {
 }
 
 .section    .linksto    a   i   {
-    font-size: 16px;
+    font-size: 14px;
     padding: 12px 14px;
     color: #fff;
 }
@@ -446,7 +446,7 @@ body    {
 }
 
 .section    .ritenote   p   {
-    font-size: 16px;
+    font-size: 14px;
     font-family: monospace;
     color: #fff;
     padding: 12px 14px;
