@@ -118,6 +118,12 @@ body    {
     padding: 0;
     justify-content: flex-end;
     background-color: #00f;
+    clip-path: polygon(
+        0% 0%,
+        100% 0%,
+        100% calc(100% - 15px),
+        0% 100%
+    );
 }
 
 .main-content   .intro  p   {
