@@ -149,8 +149,9 @@ body    {
     background: #222;
     padding: 40px 14px;
     margin: 0 auto 15px auto;
-    width: 250px;
+    max-width: 500px;
     height: auto;
+    background-color: #00f;
 }
 
 .business-hours:before  {
@@ -169,7 +170,7 @@ body    {
     color: #fff;
     text-transform: uppercase;
     padding-left: 5px;
-    border-left: 4px solid #00f; 
+    border-left: 4px solid #ffac0c; 
 }
 
 .business-hours li  {
@@ -180,10 +181,6 @@ body    {
 
 .business-hours li:last-child   {
     border-bottom: none; 
-}
-
-.business-hours .opening-hours  li.today    {
-    color: #ffac0c; 
 }
 
 

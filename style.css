@@ -310,6 +310,35 @@ body    {
     height: auto;
 }
 
+.main-content   .donors {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 0;
+    margin: 24px auto 0 auto;
+}
+
+.main-content   .donors h4  {
+    font-size: 24px;
+    color: #000;
+    font-family: Tahoma;
+    padding: 12px 14px;
+}
+
+.main-content   .donors .supporters {
+    width: auto;
+    height: auto;
+    display: block;
+}
+
+.main-content   .donors .supporters p   {
+    font: optional;
+    font-size: 13px;
+    font-family: 'Brush Script MT', cursive;
+    padding: 2px 4px;
+    color: #000;
+}
+
 
 
 
