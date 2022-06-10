@@ -116,6 +116,7 @@ body    {
     display: block;
     padding: 0;
     margin: 0 auto;
+    background-color: #00f;
     justify-content: flex-end;
     clip-path: polygon(
         0% 0%,
@@ -128,10 +129,8 @@ body    {
 .main-content   .intro  h1  {
     font-family: monospace;
     color: #fff;
-    background-color: #00f;
     font-weight: 900;
     font-size: 36px;
-    margin: 1rem;
     padding: 14px 16px 14px 10vw;
 }
 
@@ -139,8 +138,6 @@ body    {
     font-size: 14px;
     font-family: monospace;
     color: #fff;
-    background-color: #00f;
-    margin: 1rem;
     padding: 14px 16px 14px 10vw;
 }
 
@@ -343,6 +340,29 @@ body    {
 }
 
 
+.main-content   .paragraph  {
+    width: auto;
+    height: auto;
+    background-color: #00f;
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+    justify-content: flex-end;
+}
+
+.main-content   .paragraph  h5   {
+    font-size: 18px;
+    font-family: monospace;
+    color: #fff;
+    padding: 14px 16px 14px 10vw;
+}
+
+.main-content   .paragraph  p   {
+    font-size: 14px;
+    font-family: monospace;
+    color: #fff;
+    padding: 14px 16px 14px 10vw;
+}
 
 
 
