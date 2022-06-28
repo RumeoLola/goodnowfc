@@ -118,12 +118,6 @@ body    {
     margin: 0 auto;
     justify-content: flex-end;
     background-color: #00f;
-    clip-path: polygon(
-        0% 0%,
-        100% 0%,
-        100% calc(100% - 15px),
-        0% 100%
-    );
 }
 
 .main-content   .intro  h1  {
@@ -155,7 +149,7 @@ body    {
 }
 
 .main-content   .ref-links  .readers    {
-    width: 100%;
+    max-width: 600px;
     height: auto;
     padding: 0;
     margin: 0 auto;

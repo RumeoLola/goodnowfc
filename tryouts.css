@@ -118,12 +118,6 @@ body    {
     margin: 0 auto;
     justify-content: flex-end;
     background-color: #00f;
-    clip-path: polygon(
-        0% 0%,
-        100% 0%,
-        100% calc(100% - 15px),
-        0% 100%
-    );
 }
 
 .main-content   .intro  h1  {
@@ -152,17 +146,6 @@ body    {
     max-width: 500px;
     height: auto;
     background-color: #f00;
-}
-
-.business-hours:before  {
-    position: absolute;
-    top: 5px;
-    left: -12px;
-    transform: rotate(-45deg);
-    z-index: -1;
-    content: '';
-    width: auto;
-    height: auto;
 }
 
 .business-hours .title  {
