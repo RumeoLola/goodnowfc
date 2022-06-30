@@ -253,6 +253,35 @@ body    {
     font-family: monospace;
 }
 
+/*paragraph*/
+.main-content   .paragraph  {
+    width: auto;
+    height: auto;
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+    display: block;
+}
+
+.main-content   .paragraph  .aboutus    {
+    max-width: 600px;
+    display: block;
+}
+
+.main-content   .paragraph  .aboutus    h5   {
+    font-size: 18px;
+    font-family: monospace;
+    color: #000;
+    padding: 14px 16px;
+}
+
+.main-content   .paragraph  .aboutus    p   {
+    font-size: 14px;
+    font-family: monospace;
+    color: #000;
+    padding: 14px 16px 14px;
+}
+
 
 /*affiliates*/
 
@@ -274,10 +303,10 @@ body    {
 }
 
 .main-content   .flakes .our-flakes h1  {
-    color: #000;
     font-size: 24px;
-    font-weight: 100;
-    font-family: monospace;
+    color: #000;
+    font-family: Tahoma;
+    padding: 12px 14px;
 }
 
 .main-content   .flakes .league-flakes  {
@@ -331,30 +360,6 @@ body    {
     font-family: 'Brush Script MT', cursive;
     padding: 2px 4px;
     color: #000;
-}
-
-
-.main-content   .paragraph  {
-    width: auto;
-    height: auto;
-    display: block;
-    padding: 0;
-    margin: 0 auto;
-    justify-content: flex-end;
-}
-
-.main-content   .paragraph  h5   {
-    font-size: 18px;
-    font-family: monospace;
-    color: #000;
-    padding: 14px 16px 14px 10vw;
-}
-
-.main-content   .paragraph  p   {
-    font-size: 14px;
-    font-family: monospace;
-    color: #000;
-    padding: 14px 16px 14px 10vw;
 }
 
 
@@ -1012,6 +1017,24 @@ body    {
     }
 
 
+    /*paragraph*/
+    .main-content   .paragraph  {
+        width: auto;
+        height: auto;
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+        justify-content: space-around;
+        display: flex;
+    }
+    
+    .main-content   .paragraph  .aboutus    {
+        max-width: 350px;
+        display: inline-block;
+        justify-content: space-between;
+    }
+
+
 
 
     .section    {
@@ -1197,6 +1220,23 @@ body    {
         width: 500px;
         height: auto;
         padding: 12px 14px;
+    }
+
+    /*paragraph*/
+    .main-content   .paragraph  {
+        width: auto;
+        height: auto;
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+        justify-content: space-around;
+        display: flex;
+    }
+    
+    .main-content   .paragraph  .aboutus    {
+        max-width: 475px;
+        display: inline-block;
+        justify-content: space-between;
     }
 
 
@@ -1387,6 +1427,22 @@ body    {
         padding: 12px 14px;
     }
 
+    /*paragraph*/
+    .main-content   .paragraph  {
+        width: auto;
+        height: auto;
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+        justify-content: space-around;
+        display: flex;
+    }
+    
+    .main-content   .paragraph  .aboutus    {
+        max-width: 575px;
+        display: inline-block;
+        justify-content: space-between;
+    }
 
 
     .section    {

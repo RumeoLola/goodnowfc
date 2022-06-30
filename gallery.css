@@ -1,0 +1,833 @@
+body    {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+    display: block;
+}
+
+/*body*/
+.body   {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 0 0 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: block;
+    background-color: #fff;
+}
+
+
+/*head */
+
+.head   {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.head   .firstop    {
+    width: auto;
+    height: auto;
+    justify-content: space-between;
+    display: inline-block;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.head   .firstop    .logoimg    {
+    display: block;
+}
+
+.head   .firstop    .logoimg    a   {
+    text-decoration: none;
+    padding: 0;
+}
+
+.head   .firstop    .logoimg    a:hover {
+    cursor: pointer;
+}
+
+.head   .firstop    .logoimg    a   img {
+    resize: both;
+    height: 90px;
+    width: auto;
+    padding: 14px 0 14px 0;
+    background-color: transparent;
+}
+
+.head   .firstop    .openmenu   {
+    display: none;
+}
+
+.head   .sidenav    {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 36px 0 0 0;
+    margin: 0 auto;
+    width: auto;
+}
+
+.head   .sidenav    a   {
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    display: inline-block;
+    font-weight: 900;
+    padding: 12px 12px 12px 12px;
+}
+
+.head   .sidenav    .closebtn   {
+    display: none;
+    position: relative;
+    top: 0;
+    right: 0;
+    padding: 0;
+    margin: 0 auto;
+}
+
+/*main-content*/
+.main-content   {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.main-content   .intro  {
+    width: auto;
+    height: auto;
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+    background-color: #00f;
+    justify-content: flex-end;
+}
+
+.main-content   .intro  h1  {
+    font-family: monospace;
+    color: #fff;
+    font-weight: 900;
+    font-size: 36px;
+    padding: 14px 16px 14px 10vw;
+}
+
+/*gallery items*/
+.main-content   .intro  h2  {
+    opacity: 1 !important;
+    font-family: monospace;
+    color: #fff;
+    font-size: 14px;
+    padding: 14px 16px 14px 10vw;
+}
+
+.content    {
+    background-color: rgba(0,0,0,0.75) !important;
+    height: auto;
+    width: 100%;
+    display: grid;
+}
+
+.full   .content    img {
+    left: 50%;
+    transform: translate3d(0, 0, 0);
+    animation: zoomin 1s ease;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+.byebye {
+    opacity: 0;
+}
+
+.byebye:hover   {
+    transform: scale(0.2) !important;
+}
+
+.gallery    {
+    display: grid;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: 8px;
+}
+
+.gallery    img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 16px #333;
+    transition: all 1.5s ease;
+}
+
+.gallery    img:hover   {
+    box-shadow: 0 0 32px #333;
+}
+
+.gallery    .content    {
+    padding: 4px;
+}
+
+.gallery    .gallery-item   {
+    transition: grid-row-start 300ms linear;
+    transition: transform 300ms ease;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.gallery    .gallery-item:hover {
+    transform: scale(1.025);
+}
+
+@media (max-width: 600px) {
+    .gallery {
+      grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    }
+  }
+  @media (max-width: 400px) {
+    .gallery {
+      grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+    }
+  }
+  @-moz-keyframes zoomin {
+    0% {
+      max-width: 50%;
+      transform: rotate(-30deg);
+      filter: blur(4px);
+    }
+    30% {
+      filter: blur(4px);
+      transform: rotate(-80deg);
+    }
+    70% {
+      max-width: 50%;
+      transform: rotate(45deg);
+    }
+    100% {
+      max-width: 100%;
+      transform: rotate(0deg);
+    }
+  }
+  @-webkit-keyframes zoomin {
+    0% {
+      max-width: 50%;
+      transform: rotate(-30deg);
+      filter: blur(4px);
+    }
+    30% {
+      filter: blur(4px);
+      transform: rotate(-80deg);
+    }
+    70% {
+      max-width: 50%;
+      transform: rotate(45deg);
+    }
+    100% {
+      max-width: 100%;
+      transform: rotate(0deg);
+    }
+  }
+  @-o-keyframes zoomin {
+    0% {
+      max-width: 50%;
+      transform: rotate(-30deg);
+      filter: blur(4px);
+    }
+    30% {
+      filter: blur(4px);
+      transform: rotate(-80deg);
+    }
+    70% {
+      max-width: 50%;
+      transform: rotate(45deg);
+    }
+    100% {
+      max-width: 100%;
+      transform: rotate(0deg);
+    }
+  }
+  @keyframes zoomin {
+    0% {
+      max-width: 50%;
+      transform: rotate(-30deg);
+      filter: blur(4px);
+    }
+    30% {
+      filter: blur(4px);
+      transform: rotate(-80deg);
+    }
+    70% {
+      max-width: 50%;
+      transform: rotate(45deg);
+    }
+    100% {
+      max-width: 100%;
+      transform: rotate(0deg);
+    }
+  }
+  
+
+/*footer*/
+.section    {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    padding: 32px 0 0 0;
+    background-color: #00f;
+}
+
+.section    .linksto    {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 0;
+    margin: 16px 0 0 0;
+}
+
+.section    .linksto    a   {
+    text-decoration: none;
+    height: auto;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.section    .linksto    a:hover {
+    cursor: pointer;
+}
+
+.section    .linksto    a   i   {
+    font-size: 14px;
+    padding: 12px 14px;
+    color: #fff;
+}
+
+.section    .ritenote   {
+    width: 100vw;
+    height: auto;
+    display: block;
+}
+
+.section    .ritenote   p   {
+    font-size: 14px;
+    font-family: monospace;
+    color: #fff;
+    padding: 12px 14px;
+}
+
+.section    .ritenote   p   a   {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+@media only screen and (max-width: 319px)   {
+    .head   {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .head   .firstop    {
+        width: 100%;
+        height: auto;
+        justify-content: space-around;
+        display: flex;
+    }
+
+    .head   .firstop    .logoimg    {
+        justify-content: space-between;
+        display: inline-block;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .head   .firstop    .logoimg    a   {
+        text-decoration: none;
+        padding: 0;
+    }
+
+    .head   .firstop    .logoimg    a:hover {
+        cursor: pointer;
+    }
+
+    .head   .firstop    .logoimg    a   img {
+        resize: both;
+        height: 124px;
+        width: auto;
+        padding: 0 0 14px 0;
+    }
+
+    .head   .firstop    .openmenu   {
+        justify-content: space-between;
+        display: inline-block;
+        padding: 28px 0 0 0;
+        margin: 0 auto;
+        font-size: 36;
+    }
+
+    .head   .sidenav    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+        height: auto;
+        width: 100%;
+        overflow-x: hidden;
+        padding: 48px 0 0 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .head   .sidenav    a   {
+        text-decoration: none;
+        font-size: 16px;
+        display: block;
+        font-weight: 900;
+        padding: 16px 0 12px 0;
+    }
+
+    .head   .sidenav    .closebtn   {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 12px 24px 0 0;
+        font-size: 36px;
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px)   {
+    .head   {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .head   .firstop    {
+        width: 100%;
+        height: auto;
+        justify-content: space-around;
+        display: flex;
+    }
+
+    .head   .firstop    .logoimg    {
+        justify-content: space-between;
+        display: inline-block;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .head   .firstop    .logoimg    a   {
+        text-decoration: none;
+        padding: 0;
+    }
+
+    .head   .firstop    .logoimg    a:hover {
+        cursor: pointer;
+    }
+
+    .head   .firstop    .logoimg    a   img {
+        resize: both;
+        height: 136px;
+        width: auto;
+        padding: 0 0 14px 0;
+    }
+
+    .head   .firstop    .openmenu   {
+        justify-content: space-between;
+        display: inline-block;
+        padding: 32px 0 0 0;
+        margin: 0 auto;
+        font-size: 36;
+    }
+
+    .head   .sidenav    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+        height: auto;
+        width: 100%;
+        overflow-x: hidden;
+        padding: 48px 0 0 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .head   .sidenav    a   {
+        text-decoration: none;
+        font-size: 16px;
+        display: block;
+        font-weight: 900;
+        padding: 16px 0 12px 0;
+    }
+
+    .head   .sidenav    .closebtn   {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 12px 24px 0 0;
+        font-size: 36px;
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px)   {
+    .head   {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .head   .firstop    {
+        width: 100%;
+        height: auto;
+        justify-content: space-around;
+        display: flex;
+    }
+
+    .head   .firstop    .logoimg    {
+        justify-content: space-between;
+        display: inline-block;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .head   .firstop    .logoimg    a   {
+        text-decoration: none;
+        padding: 0;
+    }
+
+    .head   .firstop    .logoimg    a:hover {
+        cursor: pointer;
+    }
+
+    .head   .firstop    .logoimg    a   img {
+        resize: both;
+        height: 148px;
+        width: auto;
+        padding: 0 0 14px 0;
+    }
+
+    .head   .firstop    .openmenu   {
+        justify-content: space-between;
+        display: inline-block;
+        padding: 48px 0 0 0;
+        margin: 0 auto;
+        font-size: 36;
+    }
+
+    .head   .sidenav    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+        height: auto;
+        width: 100%;
+        overflow-x: hidden;
+        padding: 48px 0 0 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .head   .sidenav    a   {
+        text-decoration: none;
+        font-size: 16px;
+        display: block;
+        font-weight: 900;
+        padding: 16px 0 12px 0;
+    }
+
+    .head   .sidenav    .closebtn   {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 12px 24px 0 0;
+        font-size: 36px;
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px)   {
+    .head   {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .head   .firstop    {
+        width: 100%;
+        height: auto;
+        justify-content: space-around;
+        display: flex;
+    }
+
+    .head   .firstop    .logoimg    {
+        justify-content: space-between;
+        display: inline-block;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .head   .firstop    .logoimg    a   {
+        text-decoration: none;
+        padding: 0;
+    }
+
+    .head   .firstop    .logoimg    a:hover {
+        cursor: pointer;
+    }
+
+    .head   .firstop    .logoimg    a   img {
+        resize: both;
+        height: 156px;
+        width: auto;
+        padding: 0 0 14px 0;
+    }
+
+    .head   .firstop    .openmenu   {
+        justify-content: space-between;
+        display: inline-block;
+        padding: 52px 0 0 0;
+        margin: 0 auto;
+        font-size: 36;
+    }
+
+    .head   .sidenav    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+        height: auto;
+        width: 100%;
+        overflow-x: hidden;
+        padding: 48px 0 0 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .head   .sidenav    a   {
+        text-decoration: none;
+        font-size: 16px;
+        display: block;
+        font-weight: 900;
+        padding: 16px 0 12px 0;
+    }
+
+    .head   .sidenav    .closebtn   {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 12px 24px 0 0;
+        font-size: 36px;
+        display: block;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px)   {
+    .head   {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .head   .firstop    {
+        width: auto;
+        height: auto;
+        justify-content: space-between;
+        display: inline-block;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .head   .firstop    .logoimg    {
+        display: block;
+    }
+
+    .head   .firstop    .logoimg    a   {
+        text-decoration: none;
+        padding: 0;
+    }
+
+    .head   .firstop    .logoimg    a:hover {
+        cursor: pointer;
+    }
+
+    .head   .firstop    .logoimg    a   img {
+        resize: both;
+        height: 156px;
+        width: auto;
+        padding: 0 0 14px 16px;
+    }
+
+    .head   .firstop    .openmenu   {
+        display: none;
+    }
+
+    .head   .sidenav    {
+        display: inline-block;
+        justify-content: space-between;
+        padding: 54px 0 0 0;
+        margin: 0 auto;
+        width: auto;
+    }
+
+    .head   .sidenav    a   {
+        text-decoration: none;
+        font-size: 16px;
+        display: inline-block;
+        font-weight: 900;
+        padding: 12px 12px 12px 12px;
+    }
+
+    .head   .sidenav    .closebtn   {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px)   {
+    .head   {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .head   .firstop    {
+        width: auto;
+        height: auto;
+        justify-content: space-between;
+        display: inline-block;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .head   .firstop    .logoimg    {
+        display: block;
+    }
+
+    .head   .firstop    .logoimg    a   {
+        text-decoration: none;
+        padding: 0;
+    }
+
+    .head   .firstop    .logoimg    a:hover {
+        cursor: pointer;
+    }
+
+    .head   .firstop    .logoimg    a   img {
+        resize: both;
+        height: 156px;
+        width: auto;
+        padding: 0 0 14px 16px;
+    }
+
+    .head   .firstop    .openmenu   {
+        display: none;
+    }
+
+    .head   .sidenav    {
+        display: inline-block;
+        justify-content: space-between;
+        padding: 54px 0 0 0;
+        margin: 0 auto;
+        width: auto;
+    }
+
+    .head   .sidenav    a   {
+        text-decoration: none;
+        font-size: 16px;
+        display: inline-block;
+        font-weight: 900;
+        padding: 12px 12px 12px 12px;
+    }
+
+    .head   .sidenav    .closebtn   {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1200px)   {
+    .head   {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .head   .firstop    {
+        width: auto;
+        height: auto;
+        justify-content: space-between;
+        display: inline-block;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .head   .firstop    .logoimg    {
+        display: block;
+    }
+
+    .head   .firstop    .logoimg    a   {
+        text-decoration: none;
+        padding: 0;
+    }
+
+    .head   .firstop    .logoimg    a:hover {
+        cursor: pointer;
+    }
+
+    .head   .firstop    .logoimg    a   img {
+        resize: both;
+        height: 156px;
+        width: auto;
+        padding: 0 0 14px 16px;
+    }
+
+    .head   .firstop    .openmenu   {
+        display: none;
+    }
+
+    .head   .sidenav    {
+        display: inline-block;
+        justify-content: space-between;
+        padding: 54px 0 0 0;
+        margin: 0 auto;
+        width: auto;
+    }
+
+    .head   .sidenav    a   {
+        text-decoration: none;
+        font-size: 16px;
+        display: inline-block;
+        font-weight: 900;
+        padding: 12px 12px 12px 12px;
+    }
+
+    .head   .sidenav    .closebtn   {
+        display: none;
+    }
+}
