@@ -1,0 +1,1542 @@
+body    {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+    display: block;
+}
+
+/*body*/
+.body   {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 0 0 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: block;
+    background-color: #fff;
+}
+
+
+/*head */
+
+.head   {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.head   .firstop    {
+    width: auto;
+    height: auto;
+    justify-content: space-between;
+    display: inline-block;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.head   .firstop    .logoimg    {
+    display: block;
+}
+
+.head   .firstop    .logoimg    a   {
+    text-decoration: none;
+    padding: 0;
+}
+
+.head   .firstop    .logoimg    a:hover {
+    cursor: pointer;
+}
+
+.head   .firstop    .logoimg    a   img {
+    resize: both;
+    height: 90px;
+    width: auto;
+    padding: 14px 0 14px 0;
+    background-color: transparent;
+}
+
+.head   .firstop    .openmenu   {
+    display: none;
+}
+
+.head   .sidenav    {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 36px 0 0 0;
+    margin: 0 auto;
+    width: auto;
+}
+
+.head   .sidenav    a   {
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    display: inline-block;
+    font-weight: 900;
+    padding: 12px 12px 12px 12px;
+}
+
+.head   .sidenav    .closebtn   {
+    display: none;
+    position: relative;
+    top: 0;
+    right: 0;
+    padding: 0;
+    margin: 0 auto;
+}
+
+/*main-content*/
+.main-content   {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.main-content   .intro  {
+    width: auto;
+    height: auto;
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+    background-color: #00f;
+    justify-content: flex-end;
+}
+
+.main-content   .intro  h1  {
+    font-family: monospace;
+    color: #fff;
+    font-weight: 900;
+    font-size: 36px;
+    padding: 14px 16px 14px 10vw;
+}
+
+.main-content   .intro  p   {
+    font-size: 14px;
+    font-family: monospace;
+    color: #fff;
+    padding: 14px 16px 14px 10vw;
+}
+
+
+
+/*carousel*/
+
+.main-content   .container-lg   {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: auto;
+    text-align: center;
+}
+
+.main-content   .container-lg   .carousel   {
+    width: auto;
+    height: auto;
+    padding: auto;
+    margin: 0 auto;
+}
+
+.main-content   .container-lg   .carousel   .carousel-inner {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.main-content   .container-lg   .carousel   .carousel-inner .carousel-item  {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+/* ref links */
+.main-content   .ref-links  {
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-content   .ref-links  .readers    {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.main-content   .ref-links  .readers    p   {
+    font-size: 14px;
+    font-family: monospace;
+    color: #000;
+    padding: 14px 16px;
+}
+
+.main-content   .ref-links  .readers    h2  {
+    font-size: 16px;
+    font-family: monospace;
+    font-weight: 900;
+    color: #000;
+    padding: 14px 16px;
+}
+
+.main-content   .ref-links  .sub-refs   {
+    display: inline-block;
+    width: auto;
+    height: 200px;
+    padding: 16px 0;
+    margin: 0 auto;
+    gap: 8px;
+}
+
+.main-content   .ref-links  .sub-refs   a   {
+    text-decoration: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.main-content   .ref-links  .sub-refs   a:hover {
+    cursor: pointer;
+}
+
+.main-content   .ref-links  .sub-refs   a   img {
+    resize: both;
+    width: 250px;
+    height: auto;
+    padding: 12px 14px;
+}
+
+.main-content   .ref-links  .sub-refs   a   img:hover   {
+    opacity: 1;
+}
+
+.main-content   .ref-links  .sub-refs   a   .middle {
+    transition: .5s ease;
+    opacity: 1;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.main-content   .ref-links  .sub-refs   a:hover .middle {
+    opacity: 0;
+}
+
+.main-content   .ref-links  .sub-refs   a   .middle     .text   {
+    background-color: #00f;
+    color: #fff;
+    font-size: 14px;
+    padding: 16px 32px;
+    font-family: monospace;
+}
+
+/*paragraph*/
+.main-content   .paragraph  {
+    width: auto;
+    height: auto;
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+    display: block;
+}
+
+.main-content   .paragraph  .aboutus    {
+    max-width: 600px;
+    display: block;
+}
+
+.main-content   .paragraph  .aboutus    h5   {
+    font-size: 18px;
+    font-family: monospace;
+    color: #000;
+    padding: 14px 16px;
+}
+
+.main-content   .paragraph  .aboutus    p   {
+    font-size: 14px;
+    font-family: monospace;
+    color: #000;
+    padding: 14px 16px 14px;
+}
+
+
+/*affiliates*/
+
+.main-content   .flakes {
+    width: 100%;
+    height: auto;
+    padding: 0 0 24px 0;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.main-content   .flakes .our-flakes {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    height: auto;
+    text-align: center;
+}
+
+.main-content   .flakes .our-flakes h1  {
+    font-size: 24px;
+    color: #000;
+    font-family: Tahoma;
+    padding: 12px 14px;
+}
+
+.main-content   .flakes .league-flakes  {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.main-content   .flakes .league-flakes  a   {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    padding: 14px 48px;
+}
+
+.main-content   .flakes .league-flakes  a:hover {
+    cursor: pointer;
+}
+
+.main-content   .flakes .league-flakes  a   img {
+    resize: both;
+    width: 100px;
+    height: auto;
+}
+
+.main-content   .donors {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 0;
+    margin: 24px auto 0 auto;
+}
+
+.main-content   .donors h4  {
+    font-size: 24px;
+    color: #000;
+    font-family: Tahoma;
+    padding: 12px 14px;
+}
+
+.main-content   .donors .supporters {
+    width: auto;
+    height: auto;
+    display: block;
+}
+
+.main-content   .donors .supporters p   {
+    font: optional;
+    font-size: 13px;
+    font-family: 'Brush Script MT', cursive;
+    padding: 2px 4px;
+    color: #000;
+}
+
+
+
+/*footer*/
+.section    {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    padding: 32px 0 0 0;
+    background-color: #00f;
+}
+
+.section    .feeet  {
+    width: 100vw;
+    height: auto;
+}
+
+.section    .feeet  h2  {
+    font-size: 16px;
+    color: #fff;
+    font-family: monospace;
+    font-weight: 900;
+}
+
+.section    .feeet  .mess-form   {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: block;
+}
+
+.section    .feeet  .mess-form   .casse  {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0 auto;
+    display: block;
+}
+
+.section    .feeet  .mess-form   .casse  .sendee {
+    display: block;
+    width: 100vw;
+    height: auto;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.section    .feeet  .mess-form   .casse  .sendee .form-group {
+    width: 100vw;
+    height: auto;
+    display: block;
+    padding: 12px 0;
+    margin: 0 auto;
+}
+
+.section    .feeet  .mess-form   .casse  .sendee .form-group .form-control   {
+    width: 90%;
+    height: 32px;
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+
+.section    .feeet  .mess-form   .casse  .watsmess   {
+    justify-content: space-between;
+    display: inline-block;
+    width: 100vw;
+    height: auto;
+    padding: 11px 0 0 0;
+    margin: 0 auto;
+}
+
+.section    .feeet  .mess-form   .casse  .watsmess  .ent-text   {
+    width: 90%;
+    height: 150px;
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+
+.section    .feeet  .mess-form  .sendbtn    {
+    width: 100vw;
+    height: auto;
+    padding: 16px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section    .feeet  .mess-form  .sendbtn    .messend    {
+    width: 90%;
+    height: 32px;
+    padding: 0;
+    margin: 0 auto;
+    color: #000;
+    background-color: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+
+.section    .feeet  .mess-form  .sendbtn    .messend:hover    {
+    cursor: pointer;
+}
+
+.section    .linksto    {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 0;
+    margin: 16px 0 0 0;
+}
+
+.section    .linksto    a   {
+    text-decoration: none;
+    height: auto;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.section    .linksto    a:hover {
+    cursor: pointer;
+}
+
+.section    .linksto    a   i   {
+    font-size: 14px;
+    padding: 12px 14px;
+    color: #fff;
+}
+
+.section    .ritenote   {
+    width: 100vw;
+    height: auto;
+    display: block;
+}
+
+.section    .ritenote   p   {
+    font-size: 14px;
+    font-family: monospace;
+    color: #fff;
+    padding: 12px 14px;
+}
+
+.section    .ritenote   p   a   {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+@media only screen and (max-width: 319px)   {
+    .head   {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .head   .firstop    {
+        width: 100%;
+        height: auto;
+        justify-content: space-around;
+        display: flex;
+    }
+
+    .head   .firstop    .logoimg    {
+        justify-content: space-between;
+        display: inline-block;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .head   .firstop    .logoimg    a   {
+        text-decoration: none;
+        padding: 0;
+    }
+
+    .head   .firstop    .logoimg    a:hover {
+        cursor: pointer;
+    }
+
+    .head   .firstop    .logoimg    a   img {
+        resize: both;
+        height: 124px;
+        width: auto;
+        padding: 0 0 14px 0;
+    }
+
+    .head   .firstop    .openmenu   {
+        justify-content: space-between;
+        display: inline-block;
+        padding: 28px 0 0 0;
+        margin: 0 auto;
+        font-size: 36;
+    }
+
+    .head   .sidenav    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+        height: auto;
+        width: 100%;
+        overflow-x: hidden;
+        padding: 48px 0 0 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .head   .sidenav    a   {
+        text-decoration: none;
+        font-size: 16px;
+        display: block;
+        font-weight: 900;
+        padding: 16px 0 12px 0;
+    }
+
+    .head   .sidenav    .closebtn   {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 12px 24px 0 0;
+        font-size: 36px;
+        display: block;
+    }
+
+
+    /* flakes */
+    .main-content   .flakes .league-flakes  {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .main-content   .flakes .league-flakes  a   {
+        display: inline-block;
+        width: auto;
+        height: auto;
+        padding: 0;
+        text-decoration: none;
+        display: inline-block;
+        justify-content: space-between;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px)   {
+    .head   {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .head   .firstop    {
+        width: 100%;
+        height: auto;
+        justify-content: space-around;
+        display: flex;
+    }
+
+    .head   .firstop    .logoimg    {
+        justify-content: space-between;
+        display: inline-block;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .head   .firstop    .logoimg    a   {
+        text-decoration: none;
+        padding: 0;
+    }
+
+    .head   .firstop    .logoimg    a:hover {
+        cursor: pointer;
+    }
+
+    .head   .firstop    .logoimg    a   img {
+        resize: both;
+        height: 136px;
+        width: auto;
+        padding: 0 0 14px 0;
+    }
+
+    .head   .firstop    .openmenu   {
+        justify-content: space-between;
+        display: inline-block;
+        padding: 32px 0 0 0;
+        margin: 0 auto;
+        font-size: 36;
+    }
+
+    .head   .sidenav    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+        height: auto;
+        width: 100%;
+        overflow-x: hidden;
+        padding: 48px 0 0 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .head   .sidenav    a   {
+        text-decoration: none;
+        font-size: 16px;
+        display: block;
+        font-weight: 900;
+        padding: 16px 0 12px 0;
+    }
+
+    .head   .sidenav    .closebtn   {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 12px 24px 0 0;
+        font-size: 36px;
+        display: block;
+    }
+
+    /* ref-links */
+    .main-content   .ref-links  .sub-refs   a   img {
+        resize: both;
+        width: 275px;
+        height: auto;
+        padding: 12px 14px;
+    }
+
+    /* flakes */
+    .main-content   .flakes .league-flakes  {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .main-content   .flakes .league-flakes  a   {
+        display: inline-block;
+        width: auto;
+        height: auto;
+        padding: 0;
+        text-decoration: none;
+        display: inline-block;
+        justify-content: space-between;
+    }
+
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px)   {
+    .head   {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .head   .firstop    {
+        width: 100%;
+        height: auto;
+        justify-content: space-around;
+        display: flex;
+    }
+
+    .head   .firstop    .logoimg    {
+        justify-content: space-between;
+        display: inline-block;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .head   .firstop    .logoimg    a   {
+        text-decoration: none;
+        padding: 0;
+    }
+
+    .head   .firstop    .logoimg    a:hover {
+        cursor: pointer;
+    }
+
+    .head   .firstop    .logoimg    a   img {
+        resize: both;
+        height: 148px;
+        width: auto;
+        padding: 0 0 14px 0;
+    }
+
+    .head   .firstop    .openmenu   {
+        justify-content: space-between;
+        display: inline-block;
+        padding: 48px 0 0 0;
+        margin: 0 auto;
+        font-size: 36;
+    }
+
+    .head   .sidenav    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+        height: auto;
+        width: 100%;
+        overflow-x: hidden;
+        padding: 48px 0 0 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .head   .sidenav    a   {
+        text-decoration: none;
+        font-size: 16px;
+        display: block;
+        font-weight: 900;
+        padding: 16px 0 12px 0;
+    }
+
+    .head   .sidenav    .closebtn   {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 12px 24px 0 0;
+        font-size: 36px;
+        display: block;
+    }
+
+    /* ref-links */
+    .main-content   .ref-links  .sub-refs   a   img {
+        resize: both;
+        width: 350px;
+        height: auto;
+        padding: 12px 14px;
+    }
+
+    /* flakes */
+    .main-content   .flakes .league-flakes  {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .main-content   .flakes .league-flakes  a   {
+        display: inline-block;
+        width: auto;
+        height: auto;
+        padding: 0;
+        text-decoration: none;
+        display: inline-block;
+        justify-content: space-between;
+    }
+
+
+
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px)   {
+    .head   {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .head   .firstop    {
+        width: 100%;
+        height: auto;
+        justify-content: space-around;
+        display: flex;
+    }
+
+    .head   .firstop    .logoimg    {
+        justify-content: space-between;
+        display: inline-block;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .head   .firstop    .logoimg    a   {
+        text-decoration: none;
+        padding: 0;
+    }
+
+    .head   .firstop    .logoimg    a:hover {
+        cursor: pointer;
+    }
+
+    .head   .firstop    .logoimg    a   img {
+        resize: both;
+        height: 156px;
+        width: auto;
+        padding: 0 0 14px 0;
+    }
+
+    .head   .firstop    .openmenu   {
+        justify-content: space-between;
+        display: inline-block;
+        padding: 52px 0 0 0;
+        margin: 0 auto;
+        font-size: 36;
+    }
+
+    .head   .sidenav    {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+        height: auto;
+        width: 100%;
+        overflow-x: hidden;
+        padding: 48px 0 0 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .head   .sidenav    a   {
+        text-decoration: none;
+        font-size: 16px;
+        display: block;
+        font-weight: 900;
+        padding: 16px 0 12px 0;
+    }
+
+    .head   .sidenav    .closebtn   {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 12px 24px 0 0;
+        font-size: 36px;
+        display: block;
+    }
+
+    /* ref-links */
+    .main-content   .ref-links  .sub-refs   a   img {
+        resize: both;
+        width: 450px;
+        height: auto;
+        padding: 12px 14px;
+    }
+
+    /* flakes */
+    .main-content   .flakes .league-flakes  {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .main-content   .flakes .league-flakes  a   {
+        display: inline-block;
+        width: auto;
+        height: auto;
+        padding: 0;
+        text-decoration: none;
+        display: inline-block;
+        justify-content: space-between;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px)   {
+    .head   {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .head   .firstop    {
+        width: auto;
+        height: auto;
+        justify-content: space-between;
+        display: inline-block;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .head   .firstop    .logoimg    {
+        display: block;
+    }
+
+    .head   .firstop    .logoimg    a   {
+        text-decoration: none;
+        padding: 0;
+    }
+
+    .head   .firstop    .logoimg    a:hover {
+        cursor: pointer;
+    }
+
+    .head   .firstop    .logoimg    a   img {
+        resize: both;
+        height: 156px;
+        width: auto;
+        padding: 0 0 14px 16px;
+    }
+
+    .head   .firstop    .openmenu   {
+        display: none;
+    }
+
+    .head   .sidenav    {
+        display: inline-block;
+        justify-content: space-between;
+        padding: 54px 0 0 0;
+        margin: 0 auto;
+        width: auto;
+    }
+
+    .head   .sidenav    a   {
+        text-decoration: none;
+        font-size: 16px;
+        display: inline-block;
+        font-weight: 900;
+        padding: 12px 12px 12px 12px;
+    }
+
+    .head   .sidenav    .closebtn   {
+        display: none;
+    }
+
+    .main-content   .intro  {
+        width: 100%;
+        height: auto;
+        display: block;
+        padding: 0;
+        justify-content: flex-end;
+    }
+    
+    .main-content   .intro  h1  {
+        font-family: monospace;
+        font-weight: 900;
+        font-size: 42px;
+        padding: 14px 16px 14px 10vw;
+    }
+    
+    .main-content   .intro  p   {
+        font-size: 18px;
+        font-family: monospace;
+        padding: 14px 10vw;
+    }
+
+    /* ref-links */
+    .main-content   .ref-links  .sub-refs   a   img {
+        resize: both;
+        width: 500px;
+        height: auto;
+        padding: 12px 14px;
+    }
+
+
+    /*paragraph*/
+    .main-content   .paragraph  {
+        width: auto;
+        height: auto;
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+        justify-content: space-around;
+        display: flex;
+    }
+    
+    .main-content   .paragraph  .aboutus    {
+        max-width: 350px;
+        display: inline-block;
+        justify-content: space-between;
+    }
+
+
+
+
+    .section    {
+        width: 100vw;
+        height: auto;
+        text-align: center;
+    }
+
+    .section    .feeet  {
+        width: 100vw;
+        height: auto;
+    }
+
+    .section    .feeet  h2  {
+        font-size: 16px;
+        font-family: monospace;
+        font-weight: 900;
+    }
+
+    .section    .feeet  .mess-form   {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        display: block;
+    }
+
+    .section    .feeet  .mess-form   .casse  {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0 auto;
+        justify-content: space-around;
+        display: flex;
+    }
+
+    .section    .feeet  .mess-form   .casse  .sendee {
+        justify-content: space-between;
+        display: inline-block;
+        width: 50vw;
+        height: auto;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .section    .feeet  .mess-form   .casse  .sendee .form-group {
+        width: auto;
+        height: auto;
+        display: block;
+        padding: 14px 0 14px 0;
+        margin: 0 auto;
+    }
+
+    .section    .feeet  .mess-form   .casse  .sendee .form-group .form-control   {
+        width: 90%;
+        height: 32px;
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .section    .feeet  .mess-form   .casse  .watsmess   {
+        justify-content: space-between;
+        display: inline-block;
+        width: 50vw;
+        height: auto;
+        padding: 12px 0 0 0;
+        margin: 0 auto;
+    }
+
+    .section    .feeet  .mess-form   .casse  .watsmess  .ent-text   {
+        width: 90%;
+        height: 154px;
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .section    .feeet  .mess-form  .sendbtn    {
+        width: 95%;
+        height: auto;
+        padding: 16px 0 0 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .section    .feeet  .mess-form  .sendbtn    .messend    {
+        width: 100%;
+        height: 40px;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+
+
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px)   {
+    .head   {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .head   .firstop    {
+        width: auto;
+        height: auto;
+        justify-content: space-between;
+        display: inline-block;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .head   .firstop    .logoimg    {
+        display: block;
+    }
+
+    .head   .firstop    .logoimg    a   {
+        text-decoration: none;
+        padding: 0;
+    }
+
+    .head   .firstop    .logoimg    a:hover {
+        cursor: pointer;
+    }
+
+    .head   .firstop    .logoimg    a   img {
+        resize: both;
+        height: 156px;
+        width: auto;
+        padding: 0 0 14px 16px;
+    }
+
+    .head   .firstop    .openmenu   {
+        display: none;
+    }
+
+    .head   .sidenav    {
+        display: inline-block;
+        justify-content: space-between;
+        padding: 54px 0 0 0;
+        margin: 0 auto;
+        width: auto;
+    }
+
+    .head   .sidenav    a   {
+        text-decoration: none;
+        font-size: 16px;
+        display: inline-block;
+        font-weight: 900;
+        padding: 12px 12px 12px 12px;
+    }
+
+    .head   .sidenav    .closebtn   {
+        display: none;
+    }
+
+    .main-content   .intro  {
+        width: 100%;
+        height: auto;
+        display: block;
+        padding: 0;
+        justify-content: flex-end;
+    }
+    
+    .main-content   .intro  h1  {
+        font-family: monospace;
+        font-weight: 900;
+        font-size: 48px;
+        padding: 14px 16px 14px 10vw;
+    }
+    
+    .main-content   .intro  p   {
+        font-size: 18px;
+        font-family: monospace;
+        padding: 14px 10vw;
+    }
+
+    /* ref-links */
+    .main-content   .ref-links  .sub-refs   a   img {
+        resize: both;
+        width: 500px;
+        height: auto;
+        padding: 12px 14px;
+    }
+
+    /*paragraph*/
+    .main-content   .paragraph  {
+        width: auto;
+        height: auto;
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+        justify-content: space-around;
+        display: flex;
+    }
+    
+    .main-content   .paragraph  .aboutus    {
+        max-width: 475px;
+        display: inline-block;
+        justify-content: space-between;
+    }
+
+
+
+
+
+    .section    {
+        width: 100vw;
+        height: auto;
+        text-align: center;
+    }
+
+    .section    .feeet  {
+        width: 100vw;
+        height: auto;
+    }
+
+    .section    .feeet  h2  {
+        font-size: 16px;
+        font-family: monospace;
+        font-weight: 900;
+    }
+
+    .section    .feeet  .mess-form   {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        display: block;
+    }
+
+    .section    .feeet  .mess-form   .casse  {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0 auto;
+        justify-content: space-around;
+        display: flex;
+    }
+
+    .section    .feeet  .mess-form   .casse  .sendee {
+        justify-content: space-between;
+        display: inline-block;
+        width: 50vw;
+        height: auto;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .section    .feeet  .mess-form   .casse  .sendee .form-group {
+        width: auto;
+        height: auto;
+        display: block;
+        padding: 14px 0 14px 0;
+        margin: 0 auto;
+    }
+
+    .section    .feeet  .mess-form   .casse  .sendee .form-group .form-control   {
+        width: 90%;
+        height: 32px;
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .section    .feeet  .mess-form   .casse  .watsmess   {
+        justify-content: space-between;
+        display: inline-block;
+        width: 50vw;
+        height: auto;
+        padding: 12px 0 0 0;
+        margin: 0 auto;
+    }
+
+    .section    .feeet  .mess-form   .casse  .watsmess  .ent-text   {
+        width: 90%;
+        height: 154px;
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .section    .feeet  .mess-form  .sendbtn    {
+        width: 95%;
+        height: auto;
+        padding: 16px 0 0 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .section    .feeet  .mess-form  .sendbtn    .messend    {
+        width: 100%;
+        height: 40px;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 1200px)   {
+    .head   {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .head   .firstop    {
+        width: auto;
+        height: auto;
+        justify-content: space-between;
+        display: inline-block;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .head   .firstop    .logoimg    {
+        display: block;
+    }
+
+    .head   .firstop    .logoimg    a   {
+        text-decoration: none;
+        padding: 0;
+    }
+
+    .head   .firstop    .logoimg    a:hover {
+        cursor: pointer;
+    }
+
+    .head   .firstop    .logoimg    a   img {
+        resize: both;
+        height: 156px;
+        width: auto;
+        padding: 0 0 14px 16px;
+    }
+
+    .head   .firstop    .openmenu   {
+        display: none;
+    }
+
+    .head   .sidenav    {
+        display: inline-block;
+        justify-content: space-between;
+        padding: 54px 0 0 0;
+        margin: 0 auto;
+        width: auto;
+    }
+
+    .head   .sidenav    a   {
+        text-decoration: none;
+        font-size: 16px;
+        display: inline-block;
+        font-weight: 900;
+        padding: 12px 12px 12px 12px;
+    }
+
+    .head   .sidenav    .closebtn   {
+        display: none;
+    }
+
+    .main-content   .intro  {
+        width: 100%;
+        height: auto;
+        display: block;
+        padding: 0;
+        justify-content: flex-end;
+    }
+    
+    .main-content   .intro  h1  {
+        font-family: monospace;
+        font-weight: 900;
+        font-size: 64px;
+        padding: 14px 16px 14px 10vw;
+    }
+    
+    .main-content   .intro  p   {
+        font-size: 18px;
+        font-family: monospace;
+        padding: 14px 10vw;
+    }
+
+    /* ref-links */
+    .main-content   .ref-links  .sub-refs   a   img {
+        resize: both;
+        width: 500px;
+        height: auto;
+        padding: 12px 14px;
+    }
+
+    /*paragraph*/
+    .main-content   .paragraph  {
+        width: auto;
+        height: auto;
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+        justify-content: space-around;
+        display: flex;
+    }
+    
+    .main-content   .paragraph  .aboutus    {
+        max-width: 575px;
+        display: inline-block;
+        justify-content: space-between;
+    }
+
+
+    .section    {
+        width: 100vw;
+        height: auto;
+        text-align: center;
+    }
+
+    .section    .feeet  {
+        width: 100vw;
+        height: auto;
+    }
+
+    .section    .feeet  h2  {
+        font-size: 16px;
+        font-family: monospace;
+        font-weight: 900;
+    }
+
+    .section    .feeet  .mess-form   {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        display: block;
+    }
+
+    .section    .feeet  .mess-form   .casse  {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0 auto;
+        justify-content: space-around;
+        display: flex;
+    }
+
+    .section    .feeet  .mess-form   .casse  .sendee {
+        justify-content: space-between;
+        display: inline-block;
+        width: 50vw;
+        height: auto;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .section    .feeet  .mess-form   .casse  .sendee .form-group {
+        width: auto;
+        height: auto;
+        display: block;
+        padding: 14px 0 14px 0;
+        margin: 0 auto;
+    }
+
+    .section    .feeet  .mess-form   .casse  .sendee .form-group .form-control   {
+        width: 90%;
+        height: 32px;
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .section    .feeet  .mess-form   .casse  .watsmess   {
+        justify-content: space-between;
+        display: inline-block;
+        width: 50vw;
+        height: auto;
+        padding: 12px 0 0 0;
+        margin: 0 auto;
+    }
+
+    .section    .feeet  .mess-form   .casse  .watsmess  .ent-text   {
+        width: 90%;
+        height: 154px;
+        display: block;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .section    .feeet  .mess-form  .sendbtn    {
+        width: 95%;
+        height: auto;
+        padding: 16px 0 0 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .section    .feeet  .mess-form  .sendbtn    .messend    {
+        width: 100%;
+        height: 40px;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+
+
+
+
+}
